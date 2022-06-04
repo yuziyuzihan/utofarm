@@ -1,0 +1,115 @@
+nav {
+  height: 10vh;
+  /* padding: 3rem 24rem; */
+  padding: 0 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name {
+  font-size: 2rem;
+  margin-left: 0.6rem;
+  color: #fff;
+}
+
+.socials-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* --- Icons --- */
+.fa-kiwi-bird {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.fa-discord,
+.fa-twitter {
+  font-size: 1.4rem;
+}
+
+.fa-discord {
+  color: #7289da;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+/* --- Buttons --- */
+.discord-button {
+  padding: 0.6rem 0.9rem;
+  margin-left: 0.8rem;
+  cursor: pointer;
+  background-color: #000;
+  border: 1px solid #fff;
+  transition-duration: 0.3s;
+}
+
+.discord-button:hover {
+  background-color: #fff;
+  transform: scaleY(100%);
+}
+
+.twitter-button {
+  padding: 0.6rem 0.9rem;
+  margin-left: 0.8rem;
+  cursor: pointer;
+  background-color: #000;
+  border: 1px solid #fff;
+  transition-duration: 0.3s;
+}
+
+.twitter-button:hover {
+  background-color: #fff;
+  transform: scaleY(100%);
+}
+
+.connect-wallet-button {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.6rem 0.9rem;
+  margin-left: 0.8rem;
+  color: #fff;
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.connect-wallet-button:hover {
+  border: 1px solid rgb(181, 130, 244);
+  background-color: #fff;
+  color: rgb(181, 130, 244);
+}
+
+/* --- Media Queries --- */
+@media only screen and (max-width: 1200px) {
+  nav {
+    padding: 0 10rem;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  nav {
+    padding: 0 7rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  nav {
+    justify-content: center;
+  }
+
+  .logo-container {
+    display: none;
+  }
+}
