@@ -26,8 +26,7 @@ const Team = () => {
           </div>
         </div>
         <p className="team-desc">
-         Utoboar is the art tech team lead by Yifan CAO.  Anqi WANG and Ze GAO are responsible for Art and Design.
-         Dr.U is helping the NFT, Web and Blockchain Technology Development.
+         Utoboar is the art tech team in Utoworld.
         </p>
       </div>
     </div>
