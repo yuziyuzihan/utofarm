@@ -26,7 +26,7 @@ const Team = () => {
           </div>
         </div>
         <p className="team-desc">
-         Utoboar is the art tech team in Uto-world.
+         Utoboar is the art tech team  in Uto-world.
         </p>
       </div>
     </div>
